@@ -10,14 +10,14 @@
     "code": "Transfer 100 tokens from Base to Ethereum, to my wallet, using [official Omnisea asset URL]."
   },
   "setup": [
-    "Install this skill from its published GitHub directory.",
+    "Install the Omnisea skill from https://github.com/Omnisea/agent-skills/tree/main/omnisea",
     "Use your verified wallet and an exact Omnisea asset identity.",
     "Keep native currency available for transaction gas and delivery fees."
   ],
   "install": {
     "type": "external",
     "provider": "Omnisea",
-    "command": "Install the Omnisea skill from PUBLIC_SKILL_DIRECTORY_URL",
+    "command": "Install the Omnisea skill from https://github.com/Omnisea/agent-skills/tree/main/omnisea",
     "reference": null
   }
 }

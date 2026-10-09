@@ -34,4 +34,4 @@ Both fee values are historical source-chain ETH quotes, not fees to reuse. Both 
 - Real wallet creation/approval/send and destination delivery through this skill.
 - Every supported chain pair or every token's behavior.
 
-Before announcing a public integration, test Bankr installation, account selection, encoding, native-value units and a separately authorized transaction flow. The public repository URL and catalog submission remain publication steps. The public RPC smoke can fail later if assets move or routes/RPCs change; report current evidence rather than treating this historical record as live readiness.
+Before announcing a public integration, test Bankr installation, account selection, encoding, native-value units and a separately authorized transaction flow. The skill is now publicly hosted at [Omnisea/agent-skills](https://github.com/Omnisea/agent-skills/tree/main/omnisea); Bankr catalog submission remains a separate step. The public RPC smoke can fail later if assets move or routes/RPCs change; report current evidence rather than treating this historical record as live readiness.
