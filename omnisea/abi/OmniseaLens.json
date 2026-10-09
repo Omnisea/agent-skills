@@ -1,0 +1,237 @@
+[
+  {
+    "inputs": [],
+    "name": "EmptyMessage",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "InvalidOptions",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "MalformedMessage",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "guid",
+        "type": "bytes32"
+      }
+    ],
+    "name": "NotFailed",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "NotRestorable",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOmniseaViews",
+        "name": "omnisea",
+        "type": "address"
+      }
+    ],
+    "name": "activePeerEids",
+    "outputs": [
+      {
+        "internalType": "uint32[]",
+        "name": "active",
+        "type": "uint32[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOmniseaViews",
+        "name": "omnisea",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "guid",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "message",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes",
+        "name": "extraOptions",
+        "type": "bytes"
+      }
+    ],
+    "name": "quoteRestore",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "nativeFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOmniseaViews",
+        "name": "omnisea",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "assetId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "eid",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint128",
+        "name": "flatFee",
+        "type": "uint128"
+      },
+      {
+        "internalType": "uint16",
+        "name": "feeBps",
+        "type": "uint16"
+      },
+      {
+        "internalType": "bytes",
+        "name": "extraOptions",
+        "type": "bytes"
+      }
+    ],
+    "name": "quoteSetRemoteFees",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "nativeFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOmniseaViews",
+        "name": "omnisea",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "assetId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "eid",
+        "type": "uint32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "remoteCompliance",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "extraOptions",
+        "type": "bytes"
+      }
+    ],
+    "name": "quoteSync",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "nativeFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "contract IOmniseaViews",
+        "name": "omnisea",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "assetId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "eid",
+        "type": "uint32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "recipient",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes",
+        "name": "extraOptions",
+        "type": "bytes"
+      }
+    ],
+    "name": "quoteWithdrawRemoteFees",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "nativeFee",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "message",
+        "type": "bytes"
+      }
+    ],
+    "name": "restoreMessageOf",
+    "outputs": [
+      {
+        "internalType": "bytes",
+        "name": "restoreMessage",
+        "type": "bytes"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "sender",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "restorer",
+        "type": "bytes32"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]

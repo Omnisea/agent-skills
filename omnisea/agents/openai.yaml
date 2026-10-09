@@ -1,0 +1,4 @@
+interface:
+  display_name: "Omnisea"
+  short_description: "Create and transfer Omnisea OFTs and ONFTs"
+  default_prompt: "Use $omnisea to resolve an official Omnisea asset link and quote a cross-chain transfer."

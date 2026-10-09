@@ -1,0 +1,195 @@
+{
+  "snapshotDate": "2026-10-09",
+  "networks": [
+    {
+      "name": "Ethereum",
+      "slug": "ethereum",
+      "chainId": 1,
+      "eid": 30101,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://ethereum-rpc.publicnode.com",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0x2989b7ba154d8e3303cac1c728ac54f44de8b6666ec6b9210e8458e5a4519bdc"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xba3f2c3619a40a237378706922047dc9fce2ef1fbaa8850ac60fec4820f7a764"
+      }
+    },
+    {
+      "name": "Base",
+      "slug": "base",
+      "chainId": 8453,
+      "eid": 30184,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://mainnet.base.org",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0x30af477ed9d319202baf6e62927e84f6ed0a81f03819c8d11d2272faacac0dd0"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0x804a2fe842feb4558fe5ccc2d4ea76caf0fcaadd33fe9e24c179b4dcca40f875"
+      }
+    },
+    {
+      "name": "Arbitrum",
+      "slug": "arbitrum",
+      "chainId": 42161,
+      "eid": 30110,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0xf926712fe6085d0e99d3037cb150af3284fa3ed4c2a052faa67f6eacde4786f2"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xea0fab8aa331b7ff23c27dd061a3b88081de7414e6876edbc273b9c6baea0dd8"
+      }
+    },
+    {
+      "name": "Optimism",
+      "slug": "optimism",
+      "chainId": 10,
+      "eid": 30111,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://mainnet.optimism.io",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0x6e4871e4556758c4eded758663bc84c6796bb2dbc60de8384594600efcc6badf"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xe0d16f885c0ca5398198adf2cb6d6b62f24b0846af02f7a168d00baa7cf4316a"
+      }
+    },
+    {
+      "name": "Polygon",
+      "slug": "polygon",
+      "chainId": 137,
+      "eid": 30109,
+      "nativeSymbol": "POL",
+      "nativeDecimals": 18,
+      "rpc": "https://polygon.drpc.org",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0xf8868ecda5ac66794952b318e54910c89338e30e9f700ebbf4a83aa4c13759ec"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xb82dae946b04ca0b86142cb4fe467cff0df9f4cd41830fb8511f9e50e6c1c895"
+      }
+    },
+    {
+      "name": "BNB Chain",
+      "slug": "bnb",
+      "chainId": 56,
+      "eid": 30102,
+      "nativeSymbol": "BNB",
+      "nativeDecimals": 18,
+      "rpc": "https://bsc-dataseed.binance.org",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0x2cfef983c6e7d13682ee47cde430f549d9c9d219f4e8fff38f39450c92fae250"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xe8abc42b9a1aa22772a71565e0ffa371be67f4725e080fb16cec514ebfd1e601"
+      }
+    },
+    {
+      "name": "Robinhood Chain",
+      "slug": "robinhood",
+      "chainId": 4663,
+      "eid": 30416,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://rpc.mainnet.chain.robinhood.com",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0xae2dc3d082d3a14bba592403981eefab64f0119eeea47ea07ace29527dc966a3"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xf7dae51f5f02216c54ed34f4e6ef8ad01f56e21d8618676676641b281b976677"
+      }
+    },
+    {
+      "name": "Ink",
+      "slug": "ink",
+      "chainId": 57073,
+      "eid": 30339,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://rpc-gel.inkonchain.com",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0xc9af3cb2485a75f594846110661e97c400d723887a996d650fa9f66720e0a4c5"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0x5f40ab6fd0474b970f22c39f1519748d9f04f1ca75bb88326e3e9b5c4ba2f8e1"
+      }
+    },
+    {
+      "name": "Abstract",
+      "slug": "abstract",
+      "chainId": 2741,
+      "eid": 30324,
+      "nativeSymbol": "ETH",
+      "nativeDecimals": 18,
+      "rpc": "https://api.mainnet.abs.xyz",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0x77a63a4c32f3faa267bb747a6541587b4303fec117a0fcf15b70e3e5b864b536"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0x35ef206b2511e6bd11cdf650f37640e07e0d8e1234db632823359d6c2242a077"
+      }
+    },
+    {
+      "name": "Arc",
+      "slug": "arc",
+      "chainId": 5042,
+      "eid": 30417,
+      "nativeSymbol": "USDC",
+      "nativeDecimals": 18,
+      "rpc": "https://rpc.mainnet.arc.io",
+      "OFT": {
+        "router": "0x96c756BAEFf18BC1A7871b2F5d4173E958be2d89",
+        "lens": "0x31f4D19cE904b523abFe78ECD4Cd0F1150403a29",
+        "runtimeHash": "0xf115d3053f30ff0f0381e6695cfbee8f28f4eadbd5f6a319372b426330ae9dd9"
+      },
+      "ONFT": {
+        "router": "0x4ee0a410385c7b9A0746D2De0F24aa004ecC0734",
+        "lens": "0xC6254fdC3F65Bd88F57657273353B2f9edD6353C",
+        "runtimeHash": "0xd48192cc5fd5a95498561132b77310b4109afa8df5f3d220da260baf1aa8c350"
+      }
+    }
+  ]
+}
